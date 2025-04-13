@@ -1,6 +1,6 @@
 @extends('user.layouts.app')
 @section('title')
-    BKash Info
+    Nagad  Info
 @endsection
 
 @section('contain')
@@ -9,12 +9,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">BKash Info</h1>
+                    <h1 class="m-0">Nagad  Info</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                        <li class="breadcrumb-item active">BKash Info</li>
+                        <li class="breadcrumb-item active">Nagad  Info</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -30,11 +30,11 @@
                     <!-- general form elements -->
                     <div class="card card-success">
                         <div class="card-header">
-                            <h3 class="card-title">BKash Info অর্ডার করুন।</h3>
+                            <h3 class="card-title">Nagad  Info অর্ডার করুন।</h3>
                         </div>
                         <div class="card card-danger card-outline m-2">
                             <div class="card-header">
-                                <h5 class="card-title text-danger">BKash Info এর জন্য 1400.00 টাকা কাটা হবে।</h5>
+                                <h5 class="card-title text-danger">Nagad  Info এর জন্য 1400.00 টাকা কাটা হবে।</h5>
                             </div>
                         </div>
 
@@ -46,7 +46,7 @@
                                     <label for="exampleInputEmail1">Select Type:</label>
                                     <select class="form-control">
                                         <option>Select</option>
-                                        <option>BKash Number</option>
+                                        <option>Nagad  Number</option>
                                     </select>
                                 </div>
 
@@ -58,7 +58,7 @@
                             </div>
 
                             <div class="form-group px-3">
-                                <label>BKash Info সম্পর্কে বিস্তারিত লিখুনঃ(যদি কিছু বলার থাকে)</label>
+                                <label>Nagad  Info সম্পর্কে বিস্তারিত লিখুনঃ(যদি কিছু বলার থাকে)</label>
                                 <textarea class="form-control" rows="2" placeholder="বিস্তারিত লিখুন.."></textarea>
                             </div>
                             <!-- /.card-body -->
@@ -84,7 +84,7 @@
                   <thead>
                     <tr>
                       <th>ID</th>
-                      <th>BKash Number</th>
+                      <th>Nagad  Number</th>
                       <th>Order Date</th>
                       <th>Status</th>
                       <th>Download</th>

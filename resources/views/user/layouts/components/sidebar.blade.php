@@ -5,8 +5,8 @@
         <!-- Add icons to the links using the .nav-icon class
      with font-awesome or any other icon font library -->
      <li class="nav-item menu-open">
-        <a href="#" class="nav-link active">
-          <i class="nav-icon fas fa-home-alt"></i>
+        <a href="{{route('dashboard')}}" class="nav-link active">
+            <i class="fas fa-home"></i>
           <p>
             Home
             <i class="right fas fa-angle-left"></i>
@@ -14,7 +14,7 @@
         </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="./index.html" class="nav-link active">
+            <a href="{{route('dashboard')}}" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
@@ -38,37 +38,37 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../layout/top-nav-sidebar.html" class="nav-link">
+                <a href="{{route('nagad.info')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>info Nagad</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../layout/boxed.html" class="nav-link">
+                <a href="{{route('bkash.statment')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>BKash Statement</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../layout/fixed-sidebar.html" class="nav-link">
+                <a href="{{route('nagad.statment')}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Nagad Statement</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../layout/fixed-sidebar-custom.html" class="nav-link">
+                <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Off BKash</small></p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../layout/fixed-topnav.html" class="nav-link">
+                <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Off Nagad</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="../layout/fixed-footer.html" class="nav-link">
+                <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Bank Statement</p>
                 </a>
@@ -78,7 +78,7 @@
 
         <li class="nav-item">
             <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-copy"></i>
+                <i class="fas fa-map-marker-alt ml-2"></i>
                 <p>
                     Location Service
                     <i class="fas fa-angle-left right"></i>
@@ -86,51 +86,39 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../layout/top-nav.html" class="nav-link">
+                    <a href="{{route('number.to.location.history')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Top Navigation</p>
+                        <p>Number To Location History</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../layout/top-nav-sidebar.html" class="nav-link">
+                    <a href="{{route('number.to.location')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Top Navigation + Sidebar</p>
+                        <p>Number To Location</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../layout/boxed.html" class="nav-link">
+                    <a href="{{route('fb.to.location')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Boxed</p>
+                        <p>Facebook To Location</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../layout/fixed-sidebar.html" class="nav-link">
+                    <a href="{{route('fb.id.recover')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Fixed Sidebar</p>
+                        <p> Facebook Id Recover </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../layout/fixed-sidebar-custom.html" class="nav-link">
+                    <a href="{{route('imei.to.location')}}" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Fixed Sidebar <small>+ Custom Area</small></p>
+                        <p>IMEI To Location</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../layout/fixed-topnav.html" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Fixed Navbar</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="../layout/fixed-footer.html" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Fixed Footer</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="../layout/collapsed-sidebar.html" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Collapsed Sidebar</p>
+                        <p>Last Call Location</p>
                     </a>
                 </li>
             </ul>
@@ -139,33 +127,57 @@
             <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-edit"></i>
                 <p>
-                    NID Servie
+                    NID Servies
                     <i class="fas fa-angle-left right"></i>
                 </p>
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="../forms/general.html" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>General Elements</p>
+                        <p>NID Correction</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../forms/advanced.html" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Advanced Elements</p>
+                        <p>NID Download</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../forms/editors.html" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Editors</p>
+                        <p>NID password Setup</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../forms/validation.html" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Validation</p>
+                        <p>NID To All Number</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Smart Card</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Smart Card Oder</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Sign Copy</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>NID TO MRP Passport</p>
                     </a>
                 </li>
             </ul>

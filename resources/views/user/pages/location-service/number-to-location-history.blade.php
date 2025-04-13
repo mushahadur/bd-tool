@@ -1,6 +1,6 @@
 @extends('user.layouts.app')
 @section('title')
-    BKash Info
+    Number-To-Location History
 @endsection
 
 @section('contain')
@@ -9,12 +9,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">BKash Info</h1>
+                    <h1 class="m-0">Number-To-Location History</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                        <li class="breadcrumb-item active">BKash Info</li>
+                        <li class="breadcrumb-item active">Number-To-Location History</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -30,11 +30,11 @@
                     <!-- general form elements -->
                     <div class="card card-success">
                         <div class="card-header">
-                            <h3 class="card-title">BKash Info অর্ডার করুন।</h3>
+                            <h3 class="card-title">Number-To-Location History অর্ডার করুন।</h3>
                         </div>
                         <div class="card card-danger card-outline m-2">
                             <div class="card-header">
-                                <h5 class="card-title text-danger">BKash Info এর জন্য 1400.00 টাকা কাটা হবে।</h5>
+                                <h5 class="card-title text-danger">Number-To-Location History এর জন্য 1400.00 টাকা কাটা হবে।</h5>
                             </div>
                         </div>
 
@@ -46,19 +46,19 @@
                                     <label for="exampleInputEmail1">Select Type:</label>
                                     <select class="form-control">
                                         <option>Select</option>
-                                        <option>BKash Number</option>
+                                        <option> Number</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">বিকাশ নাম্বারঃ</label>
+                                    <label for="exampleInputEmail1">মোবাইল নাম্বারঃ</label>
                                     <input type="number" class="form-control" id="exampleInputEmail1"
                                         placeholder="0174154745">
                                 </div>
                             </div>
 
                             <div class="form-group px-3">
-                                <label>BKash Info সম্পর্কে বিস্তারিত লিখুনঃ(যদি কিছু বলার থাকে)</label>
+                                <label>Number-To-Location History সম্পর্কে বিস্তারিত লিখুনঃ(যদি কিছু বলার থাকে)</label>
                                 <textarea class="form-control" rows="2" placeholder="বিস্তারিত লিখুন.."></textarea>
                             </div>
                             <!-- /.card-body -->

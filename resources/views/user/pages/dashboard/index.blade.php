@@ -93,6 +93,90 @@
             <!-- ./col -->
         </div>
         <!-- /.row -->
+        {{-- User History --}}
+        <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header card-info card-outline">
+                  <h2 class="card-title text-bold">User History</h2>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body table-responsive p-0">
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Service Type</th>
+                        <th>Request Date</th>
+                        <th>Status</th>
+                        <th>Comments</th>
+                        <th>Delivery Date</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>183</td>
+                        <td>NID</td>
+                        <td>11-7-2026</td>
+                        <td><span class="tag tag-success">Approved</span></td>
+                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>11-7-2026</td>
+                        <td class="text-right py-0 align-middle">
+                            <div class="btn-group btn-group-sm">
+                              <a href="#" class="btn btn-info pr-1"><i class="fas fa-edit"></i></a>
+                              <a href="#" class="btn btn-danger pl-1"><i class="fas fa-trash"></i></a>
+                            </div>
+                          </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+          </div>
+          {{-- Recharge History --}}
+        <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header card-info card-outline">
+                  <h2 class="card-title text-bold">Recharge History</h2>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body table-responsive p-0">
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Mobile Number</th>
+                        <th>Transection ID</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                        <th>Invouce</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>183</td>
+                        <td>01784526788</td>
+                        <td>VV_11-ER-2026</td>
+                        <td>11-02-2026</td>
+                        <td>684 $</td>
+                        <td><span class="tag tag-success">Approved</span></td>
+                        <td>I_2143</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+          </div>
         <!-- Main row -->
         <!-- /.row (main row) -->
     </div><!-- /.container-fluid -->

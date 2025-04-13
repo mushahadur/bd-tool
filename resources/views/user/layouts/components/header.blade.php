@@ -104,3 +104,7 @@
         </li>
     </ul>
 </nav>
+
+ <!-- notice -->
+ <marquee class="alert alert-secondary text-white" onmouseover="this.stop()" onmouseout="this.start()" role="alert" style="font-size: 1rem;">
+    সাইট এখন চালু আছে। ১০০০ টাকা রিচার্জ করলে ১০০০ টাকা বোনাস। আর সকল সার্ভিস সকাল ৯ টা থেকে রাত ১০ পযর্ন্ত চালু থাকবে ধন্যবাদ।             </marquee>

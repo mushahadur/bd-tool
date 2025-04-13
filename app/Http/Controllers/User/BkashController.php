@@ -11,4 +11,18 @@ class BkashController extends Controller
     {
         return view('user.pages.bkash.index');
     }
+
+    public function nagadInfo()
+    {
+        return view('user.pages.bkash.nagad-info');
+    }
+
+    public function bkashStatment()
+    {
+        return view('user.pages.bkash.bkash-statement');
+    }
+    public function nagadStatment()
+    {
+        return view('user.pages.bkash.nagad-statement');
+    }
 }

@@ -21,8 +21,8 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="{{route('home')}}" class="brand-link">
-                <img src="{{ asset('/') }}assets/img/logo/logo.png" alt="AdminLTE Logo"
+            <a href="{{route('dashboard')}}" class="brand-link">
+                <img src="https://placehold.co/100x100?text=LOGO" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">BD Tool</span>
             </a>
